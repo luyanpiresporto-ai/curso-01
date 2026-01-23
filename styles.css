@@ -55,3 +55,8 @@ button {
 div.caixa>p {
   color: brown;
 }
+
+img {
+  display: block;
+  margin: 0 auto;
+}
