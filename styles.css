@@ -5,8 +5,9 @@ p#diferentaco {
 
 h1 {
   color: brown;
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-    "Lucida Sans", Arial, sans-serif;
+  font-family:
+    "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans",
+    Arial, sans-serif;
   font-weight: bold;
 }
 
@@ -41,7 +42,6 @@ div.caixa {
   padding: 10px;
   margin: 10px;
   background-color: transparent;
-
 }
 
 button.aviso {
@@ -56,7 +56,7 @@ button.aviso {
   right: 16px;
 }
 
-div.caixa>p {
+div.caixa > p {
   color: brown;
 }
 
@@ -66,10 +66,32 @@ img {
   margin: 0 10px 10px 0;
 }
 
-form>* {
+form > * {
   display: block;
   width: 100%;
 
   box-sizing: border-box;
   margin-bottom: 5px;
+}
+
+video.video {
+  width: 300px;
+  border-radius: 16px;
+}
+
+div.pai {
+  display: flex;
+  border: 3px solid black;
+  flex-direction: column;
+  gap: 16px;
+  align-items: center;
+  padding: 16px;
+  margin: 16px 0;
+}
+
+div.filho {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  border: 3px solid black;
 }
